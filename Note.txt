@@ -1,0 +1,46 @@
+
+
+
+Step for creating an app with django.
+
+
+Create enviroment:py -3 -m venv name env
+
+Activate env: 
+Run this command on poweshell as admin: Set-ExecutionPolicy RemoteSigned
+.\env\Scripts\activate
+
+install django: pip install django
+install pillow: python -m pip install pillow
+
+Put all module install in the environment in an text file: pip freeze>requirements.txt
+
+create project : django-admin startproject project name
+
+create app : python manage.py startapp name app (make sure you run this command in the folder containing manage.py)
+
+add app in project: In setting (project name)
+
+migrate
+
+create model
+
+makemigrations with name app
+
+migrate
+
+test model
+
+Create supersuser: python manage.py creatersuperuser
+
+create view -> create templates (index.html)
+
+add templates in project
+
+create urls in app
+
+add app urls in project
+
+test
+
+static/assets: CSS, JS
